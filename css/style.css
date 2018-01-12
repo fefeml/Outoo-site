@@ -72,6 +72,45 @@ img {
 }
 /*Fe*/
 
+/*Paula*/
+body {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Foto centralizada abaixo */
+.fotocentral {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+    }
+
+.foto1 , .foto2, .foto3 , .foto4 {
+  height: 120px;
+  width: 120px;
+}
+
+
+.flex-container {
+  display: inline-block;
+  color: white;
+  border-radius: 150px;
+  height:200px;
+  width: 200px;
+  margin:20px;
+  margin-left:200px;
+  align-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-family: arial ;
+  font-size:20px;
+    }
+
+
 /*Gui*/
 	.twitter , .facebook, .email, .instagram {
 	width: 50px;
@@ -223,6 +262,7 @@ img {
 .estamosaquitxt{
 	font-size: 80px;
 	margin-left: 30px;
+	color:white;
 }
 .estamosaquidiv{
 	height: 100px;
@@ -230,6 +270,4 @@ img {
 }
 /*Gui*/
 
-.Gui{
-border-top: 500px;
-}
+
