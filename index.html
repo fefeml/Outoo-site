@@ -1,156 +1,274 @@
-<!DOCTYPE html>
+/*Fe*/
+	body {
+  background-image: linear-gradient(25deg, #27264A, #247558, #00A94E, #71BF43, #AFD137);
+  margin: 0;
+}
 
-<html lang="en">
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27264A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
 
-<head>
-	<link rel="stylesheet" href="css/style.css">
-		<meta charset="UTF-8">
-		<title> Outoo </title>
-	<link rel="icon" href="img/siteicon.png">
+li {
+    float: left;
+}
 
-</head>
-
-<body> 
-	<div class="divisor">
-	<!-- Fe -->
-		  <nav>
-	  <div class="itens-nav">
-	  <ul>
-	    <li><a href="default.asp">Home</a></li>
-	    <li><a href="news.asp">News</a></li>
-	    <li><a href="contact.asp">Contato</a></li>
-	    <li><a href="about.asp">Sobre nós</a></li>
-	    <li><a href="cadEmpresa.html">Sou empresa</a></li>
-	     <li><a href="cadUsuario.html">Sou usuário</a></li>
-	  </ul>
-	</div>
-	</nav>
-	  <div class="div-logo-texto">
-	  <div class="logo">
-	    <img src="img/outoo_logo.png" alt="Logo Outoo">
-	  </div>
-	  <div class="texto">
-
-	  </div>
-	  <div class="texto-logo">
-	    <p>Está chegando a plataforma onde você vai descobrir os <b>Outoffices</b>, espaços de trabalho fora do comum, que podem estar em qualquer lugar!</p>
-	    <p></p>
-	    <h1>De onde você quer trabalhar hoje?</h1>
-	  </div>
-	</div>
-	<!-- Paula -->
-<img class="fotocentral" src="img/outoo_social_FINAL5(4).jpg">
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1.2em;
+}
 
 
-  <div class="flex-container">
-    <img class="foto1" src="img/foto-carro.png">
-    <p><b>Reduzir deslocamentos</b></p>
-  </div>
+li a:hover {
+    background-color: #black;
+}
 
-  <div class="flex-container">
-    <img class="foto2" src="img/foto-computer-branco.png">
-    <p><b>Descobrir novos espaços para trabalhar</b></p>
-    </div>
+.active {
+    background-color: #4CAF50;
+}
 
-  <div class="flex-container">
-    <img class="foto3" src="img/foto-meeting.png">
-    <p><b>Desenvolver uma rede de outoffices</b></p>
-  </div>
+.div-logo-texto {
+  display: flex;
+}
 
-  <div class="flex-container">
-    <img class="foto4" src="img/foto-casa.png">
-    <p><b>Criar comunidade de outoffices</b></p>
+.logo .texto-logo {
+  display: inline-block;
+}
 
-    </div>
-  </img>
-  <!-- Paula -->
-  
-	<!-- Gui -->
+.logo {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5em 3em;
+}
 
- <div class="Gui">
-	<div class="mapa">
-		<div class="estamosaquidiv"><p class="estamosaquitxt"><font face="Arial"><b>Estamos aqui!</b></font></p></div>
-		
-		 <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14628.672222290254!2d-46.654272!3d-23.562407!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2ef43bda9ab2b4f3!2sMasterTech!5e0!3m2!1spt-BR!2sbr!4v1515765647258" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe> 
-	</div>
+.texto-logo {
+  width: 50%;
+  font-family: Arial;
+  color: white;
+  font-size: 1.8em;
+  margin: 8% 5% ;
+  padding: 0;
+  line-height: 1.5em
+}
+.texto-logo h1 {
+  line-height: 1.2em;
+  padding-top: 1em
+}
+
+
+img {
+  width: 100%;
+}
+/*Fe*/
+
+/*Paula*/
+body {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Foto centralizada abaixo */
+.fotocentral {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+    }
+
+.foto1 , .foto2, .foto3 , .foto4 {
+  height: 120px;
+  width: 120px;
+}
+
+
+.flex-container {
+  display: inline-block;
+  color: white;
+  border-radius: 150px;
+  height:200px;
+  width: 200px;
+  margin:20px;
+  margin-left:200px;
+  align-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-family: arial ;
+  font-size:20px;
+    }
+
+
+/*Gui*/
+	.twitter , .facebook, .email, .instagram {
+	width: 50px;
+	height: 50px;
+}
+
+	.footer   {
+	 padding-top: 30px;
+    background-color: #27264a;
+    position:relative;
+  	bottom:0;
+ 	width: 100%;
+ 	height: 260px;
+}
+
+	.lista-social{	
+    justify-content: space-around;
+}
+
+	.titulo-social{
+	align-content: center;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-left: 30px;
+}
+	.titulo-social2{
+	align-content: center;
+    display: flex;
+    height: 30px;
+    width: 100%;
+    margin-left: 30px;
+}
+
+	.fonte{
+	width: 240px;
+	display: inline-grid;
+	justify-content: center;
+	}
+	.fonte3{
+		margin-left: 30px;
+	}
+
+ .lista , .socialtxt{
+ 	display: flex;
+ 	flex-direction:row;
+ 	justify-content: flex-start;
+ 	margin:50px;
+ 
+ }
+
+	 .colunas-container{
+	display: flex;
+	justify-content: space-around;
+ }
+
+ 	.coluna1{	
+	position:relative;
+	display: flex;
+	justify-content: center;
+	color:white;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+	height:200px;
+}
+ 
+
+	 .coluna2{
+ 	position: relative;
+ 	display: flex;
+	justify-content: center;
+	color:white;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+	height:200px
+}
+ 
+
+ .Coluna3 {
+	display: flex;
+	justify-content: center;
+	color:white;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+	width: 33%;
+	height:200px;
+}
+
+	.lista-social  {
+	list-style-type:none;
+	width: 300px;
+	}
+
+	.social {
+	 display: flex;
+	 width: 260px;
+	 justify-content: space-between;
+	}
 	
+	.sub-fonte{
+		color:rgb(114, 191, 68);
 
-		<div class="footer">	
-				<div class="colunas-container ">
+	}
+	.logo-footer{
+			height: 200px;
+			width: 200px;
+	}
 
-					<div class="coluna1">
-						<div class="logo-footer">
-							<img class="logo-footer" src="img/siteicon.png" alt="">
-							
-						</div>
-					</div>
+	.socialgrid{
+		display: flex;
+		justify-content: space-between;
+		margin-top: 30px;
+		margin-left: 20px;
+	}
 
-					<div class="coluna2">
-						<div class="titulo">
-							<div class="lista-social">
-								<li class="titulo-social" > 
-								  <font class="fonte2" face="Arial"> <b> Baixe nosso aplicativo! <br> </b> </font> <br />
-								</li>
-									 <li>
-										<div class="App">
-											<div class="mac">
-												 <img class="mac" src="img/icones/appstore.png">
-											</div>
+	.mac , .microsoft , .market{
+		width: 170px;
+		height: 50px;
 
-											<div class="microsoft">
-												<img class="microsoft" src="img/icones/MS.png">
+	}
+	.App{
+	margin-left: 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 200px;
+	}
 
-											</div>
+.contatomail , .contatocel {
+	text-align: center;
+		margin-top: 10px;
+		margin-left: 60px;
+}
 
-											<div class="market"> 
-													<img class="market" src="img/icones/market.png">
+.mapa{
+	position: relative;
 
-											</div>
-										</div>
-									</li>
-							</div>
-						</div>
-					</div>
+	margin-left: 30%;
 
-					<div class="Coluna3">
-						<div class="titulo">
-							<div class="lista-social">
-								<li class="titulo-social2" > 
-								  <font class="fonte" face="Arial"> <b>Fale com a gente!</b> </font> <br />
-								</li>
-								<div>
-									<li class="contatomail"><font class="sub-fonte" face="Arial"> <b>contato@outoo.com.br</b> </font> <br /> </li>
-									<li class="contatocel"><font class="sub-fonte" face="Arial"> <b> +55 (11) 996314136</b> </font> <br /></li>
-								</div>
-								<br>
-									 <li class="socialgrid">
-										<div class="social">
-											<div class="facebook">
-												 <img class="facebook" src="img/icones/fb-outoo.png">
-											</div>
+}
+.estamosaquitxt{
+	font-size: 80px;
+	margin-left: 30px;
+	color:white;
+}
+.estamosaquidiv{
+	height: 100px;
+	margin: 0px;
+}
+/*Gui*/
 
-											<div class="instagram">
-												<img class="instagram" src="img/icones/ig-outoo.png">
 
-											</div>
-
-											<div class="email"> 
-													<img class="email" src="img/icones/email-outoo.png">
-
-											</div>
-											<div class="twitter">
-												 <img class="twitter" src="img/icones/tt-outoo.png"> 
-											</div>
-										</div>
-									</li>
-							</div>
-						</div>
-					</div>	
-
-			</div>
-		</div>
-	</div> 
-</div>
-</body>
-</html>
 
