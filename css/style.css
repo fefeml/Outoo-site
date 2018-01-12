@@ -1,8 +1,78 @@
-	
-	body{
-	margin:0;
+/*Fe*/
+	body {
+  background-image: linear-gradient(25deg, #27264A, #247558, #00A94E, #71BF43, #AFD137);
+  margin: 0;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #27264A;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial;
+    font-size: 1.2em;
+}
+
+
+li a:hover {
+    background-color: #black;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.div-logo-texto {
+  display: flex;
+}
+
+.logo .texto-logo {
+  display: inline-block;
+}
+
+.logo {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 5em 3em;
+}
+
+.texto-logo {
+  width: 50%;
+  font-family: Arial;
+  color: white;
+  font-size: 1.8em;
+  margin: 8% 5% ;
+  padding: 0;
+  line-height: 1.5em
+}
+.texto-logo h1 {
+  line-height: 1.2em;
+  padding-top: 1em
+}
+
+
+img {
+  width: 100%;
+}
+/*Fe*/
+
+/*Gui*/
 	.twitter , .facebook, .email, .instagram {
 	width: 50px;
 	height: 50px;
@@ -11,7 +81,7 @@
 	.footer   {
 	 padding-top: 30px;
     background-color: #27264a;
-    position:absolute;
+    position:relative;
   	bottom:0;
  	width: 100%;
  	height: 260px;
@@ -141,11 +211,12 @@
 .contatomail , .contatocel {
 	text-align: center;
 		margin-top: 10px;
+		margin-left: 60px;
 }
 
 .mapa{
-	position: absolute;
-	bottom: 300px;
+	position: relative;
+
 	margin-left: 30%;
 
 }
@@ -156,4 +227,9 @@
 .estamosaquidiv{
 	height: 100px;
 	margin: 0px;
+}
+/*Gui*/
+
+.Gui{
+border-top: 500px;
 }
