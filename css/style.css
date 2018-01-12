@@ -69,3 +69,56 @@ li a:hover {
 img {
   width: 100%;
 }
+
+/* APAGAR ESSE BACKGROUND COLOR */
+body {
+  background-color: rgb(0,170,79);
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Foto centralizada abaixo */
+.fotocentral {
+  max-width: 100%;
+  margin-top: 40px;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+    }
+
+.foto1 {
+  height: 90px;
+  width: 90px;
+}
+
+.foto2 {
+  height:90px;
+  width:90px;
+  }
+
+  .foto3 {
+  height:90px;
+  width:90px;
+    }
+
+.foto4{
+  height:90px;
+  width:90px;
+  }
+
+.flex-container {
+  display: inline-block;
+  color: white;
+  border-radius: 150px;
+  height:200px;
+  width: 200px;
+  margin:20px;
+  margin-left:70px;
+  align-content: center;
+  box-sizing: border-box;
+  justify-content: center;
+  text-align: center;
+  padding: 15px;
+  font-family: arial ;
+  font-size:16px;
+    }
